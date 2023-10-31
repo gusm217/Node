@@ -2,5 +2,8 @@
   "extends": ["eslint-config-standard-with-typescript"],
 	"parserOptions": {
 		"project": "./tsconfig.json"
+	},
+	"rules": {
+		"https://typescript-eslint.io/rules/strict-boolean-expressions": "off"
 	}
 }
